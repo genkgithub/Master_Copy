@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artwork_content:artworkContentMessage xmlns:artwork_content="urn:gs1:ecom:artwork_content:xsd:3" xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:gs1:ecom:artwork_content:xsd:3 Schemas/gs1/ecom/ArtworkContent.xsd">
+	<sh:StandardBusinessDocumentHeader>
+		<sh:HeaderVersion>1.0</sh:HeaderVersion>
+		<sh:Sender>
+			<sh:Identifier Authority="GS1"/>
+			<sh:ContactInformation>
+				<!-- To be filled by system with the 'operator' environment variable -->
+				<sh:Contact>.</sh:Contact>
+			</sh:ContactInformation>
+		</sh:Sender>
+		<sh:Receiver>
+			<sh:Identifier Authority="GS1"/>
+			<sh:ContactInformation>
+				<sh:Contact>.</sh:Contact>
+			</sh:ContactInformation>
+		</sh:Receiver>
+		<sh:DocumentIdentification>
+			<sh:Standard>GS1</sh:Standard>
+			<sh:TypeVersion></sh:TypeVersion>
+			<sh:InstanceIdentifier>DocInstance01</sh:InstanceIdentifier>
+			<sh:Type/>
+			<sh:CreationDateAndTime>2016-12-07T22:10:32</sh:CreationDateAndTime>
+		</sh:DocumentIdentification>
+	</sh:StandardBusinessDocumentHeader>
+
+	<artworkContent>
+		<creationDateTime>2016-12-07T22:10:32</creationDateTime>
+		<documentStatusCode>ORIGINAL</documentStatusCode>
+		<artworkContentIdentification>
+			<entityIdentification>Entity ID</entityIdentification>
+		</artworkContentIdentification>
+		<artworkProjectIdentification>Artwork Project ID</artworkProjectIdentification>
+		<artworkProjectName>New GS1 XML</artworkProjectName>
+		<artworkContentSource>
+			<gln>1234567890128</gln>
+		</artworkContentSource>
+		<artworkContentRecipient>
+			<gln>1234567890128</gln>
+		</artworkContentRecipient>
+
+		<artworkContentPieceOfArt>
+			<pieceOfArtIdentification>
+				<entityIdentification>POA1</entityIdentification>
+			</pieceOfArtIdentification>
+			<artworkContentLocale>
+				<localeSequence>0</localeSequence>
+				<localeIdentifier></localeIdentifier>
+			</artworkContentLocale>
+			<artworkContentLocale>
+				<localeSequence>1</localeSequence>
+				<localeIdentifier></localeIdentifier>
+			</artworkContentLocale>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">BEST_BEFORE_DATE</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>BEST BEFORE</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">BEST_BEFORE_DATE</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>MEILLEUR AVANT</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">CONSUMER_GUARANTEE</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>* or money refunded with proof of purchase</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">CONSUMER_GUARANTEE</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>* ou argent remis avec preuve d’achat</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">COPYRIGHT_TRADEMARK_STATEMENT</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>TORONTO M4T 2S8, CANADA © 2016</p>
+							<p>®TM/MC TRADEMARKS OF/</p>
+							<p>MARQUES DE COMMERCE DE LOBLAWS INC.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">INACTIVE_INGREDIENTS_DECLARATION</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>NO COLOURS OR ARTIFICIAL FLAVOURS</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">INACTIVE_INGREDIENTS_DECLARATION</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>SANS ARÔMES ARTIFICIELS NI COLORANTS</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">INGREDIENTS_DECLARATION</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>INGREDIENTS: JASMINE RICE, WATER, MODIFIED TAPIOCA STARCH, SUGAR, SOY SAUCE (SOYBEANS, WHEAT, WATER, SALT), RICE VINEGAR, SOYBEAN OIL, GARLIC, GINGER, RED CHILI PEPPER, DRIED RED CHILI PEPPERS, SALT, CHILI POWDER, BLACK PEPPER. MAY CONTAIN TREE NUTS, CRUSTACEANS AND SESAME.</p>
+							<p></p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">INGREDIENTS_DECLARATION</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>INGRÉDIENTS : RIZ AU JASMIN, EAU, FÉCULE DE MANIOC MODIFIÉE, SUCRE, SAUCE SOYA (FÈVES DE SOYA, BLÉ, EAU, SEL), VINAIGRE DE RIZ, HUILE DE SOYA, AIL, GINGEMBRE, PIMENTS FORTS, PIMENTS FORTS SÉCHÉS, SEL, POUDRE DE CHILI, POIVRE NOIR. PEUT CONTENIR : NOIX, CRUSTACÉS ET SÉSAME.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">INTERNAL_PACKAGE_IDENTIFIER</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>U111748</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">LOCATION_OF_ORIGIN</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>PRODUCT OF THAILAND/PRODUIT DE THAÏLANDE LOBLAWS INC.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">MARKETING_COPY</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>Create irresistibly tasty yet simple restaurant-style meals in your own kitchen with our quick and convenient kit – all the essentials in one box. Just add chicken and vegetables, follow a few easy steps, and enjoy General Tao, a sweet and tangy Chinese-inspired dish.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">MARKETING_COPY</copyElementTypeCode>
+				<instanceSequence>2</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>CHEF’S TIP · CONSEIL DU CHEF</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">MARKETING_COPY</copyElementTypeCode>
+				<instanceSequence>3</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>For more spiciness, chop the chili peppers before stir-frying.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">MARKETING_COPY</copyElementTypeCode>
+				<instanceSequence>4</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>Try it...you’ll love it! TM*</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">MARKETING_COPY</copyElementTypeCode>
+				<instanceSequence>5</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>MILD</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">MARKETING_COPY</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>Vous pouvez créer, à la maison, des repas simples et savoureux dignes du resto grâce à notre kit rapide et pratique qui comprend tout ce dont vous avez besoin. Ajoutez du poulet et des légumes, suivez quelques étapes faciles et savourez un délicieux poulet Général Tao, un mets d’inspiration chinoise sucré et épicé.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">MARKETING_COPY</copyElementTypeCode>
+				<instanceSequence>3</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>Pour un goût plus épicé, hachez les piments forts avant de les sauter.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">MARKETING_COPY</copyElementTypeCode>
+				<instanceSequence>4</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>Un essai vous convaincra! MC*</p>
+							<p></p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">MARKETING_COPY</copyElementTypeCode>
+				<instanceSequence>5</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>DOUX</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">NET_CONTENT_STATEMENT</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>392 g </p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PACKAGE_COUNT</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>4</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PACKAGE_COUNT</copyElementTypeCode>
+				<instanceSequence>2</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>SERVINGS</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PACKAGE_COUNT</copyElementTypeCode>
+				<instanceSequence>2</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>PORTIONS</p>
+							<p></p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PACKAGING_CLAIM</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>COMPREND : RIZ AU JASMIN, FÉCULE DE MANIOC MODIFIÉE, PIMENTS FORTS SÉCHÉS, SAUCE</p>
+							<p></p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>PREPARATION INSTRUCTIONS</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>2</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>YOU WILL NEED:</p>
+							<p>1 ²⁄³ cups<tab/>water<br/>(400 mL)</p>
+							<p>1 lb (450 g)<tab/>boneless, skinless <br/><tab/>chicken thighs, cut into<br/><tab/>1-inch (2.5 cm) cubes</p>
+							<p>3 – 4 tbsp<tab/>vegetable oil<br/>(45 – 50 mL)</p>
+							<p>1<tab/>sweet red pepper,<br/><tab/>cut into 1-inch<br/><tab/>(2.5 cm) cubes</p>
+							<p>¼ cup (50 mL)<tab/>green onions, thinly<br/><tab/>sliced on diagonal</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>3</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>STOVETOP:</p>
+							<p>PREPARE RICE:</p>
+							<p>1.<tab/>Add contents of Pouch 1<br/>(rice) to a saucepan. Stir in<br/>1 ²⁄³ cups (400 mL) water.<br/>Bring to a boil; reduce heat to LOW, cover and simmer for 11 – 12 minutes or until water has been absorbed. </p>
+							<p>2.<tab/>Let stand, covered, for 2 minutes.<br/>Fluff with a fork before serving.</p>
+							<p>STIR-FRY CHICKEN:</p>
+							<p>1.<tab/>Empty contents of Pouch 2 (modified tapioca starch) into a mixing bowl.<br/>Toss chicken in tapioca starch and shake off excess. </p>
+							<p>2.<tab/>In a large frying pan, heat 2 tbsp (30 mL) oil on MEDIUM-HIGH. Stir-fry chicken in batches, adding more oil if necessary, for about 3 minutes or until golden on both sides and just cooked through. Drain on paper towels and set aside. </p>
+							<p>STIR-FRY VEGETABLES:</p>
+							<p>1.<tab/>In a large clean frying pan, heat 1 tbsp<br/>(15 mL) oil on MEDIUM-HIGH. Stir-fry contents of Pouch 3 (chili peppers)<br/>and red pepper for 2 – 3 minutes. </p>
+							<p>2.<tab/>Add cooked chicken and contents<br/>of Pouch 4 (sauce). Toss to coat and heat through.</p>
+							<p>3.<tab/>Serve over rice. Garnish with green onions.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>4</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>COOKING TIME MAY VARIETY ACCORDING TO THE APPLIANCE; FOR INFORMATION</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>5</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>2</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>450°F<br/></p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>6</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>2</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>9 – 10<br/>MINUTES</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>MODE DE PRÉPARATION</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>2</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>IL FAUT :</p>
+							<p>1 ²⁄³ tasse <tab/>eau<br/>(400 mL)</p>
+							<p>1 lb (450 g)<tab/>cuisses de poulet <br/><tab/>sans peau, désossées,<br/><tab/>coupées en cubes de<br/><tab/>1 pouce (2,5 cm)</p>
+							<p>3 à 4 c. à soupe<tab/>huile végétale<br/>(45 à 50 mL) </p>
+							<p>1<tab/>poivron rouge, coupé<br/><tab/>en cubes de 1 pouce<br/><tab/>(2,5 cm)</p>
+							<p>¼ tasse <tab/>oignons verts, tranchés<br/>(50 mL)<tab/>finement en diagonale</p>
+							<p></p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>3</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>CUISINIÈRE :</p>
+							<p>PRÉPARER LE RIZ : </p>
+							<p>1.<tab/>Verser le contenu du sachet 1 dans une casserole. Incorporer<br/>1 ²⁄³ tasse (400 mL) d’eau.<br/>Porter à ébullition; réduire à feu DOUX, couvrir et laisser mijoter de<br/>11 à 12 minutes ou jusqu’à ce que l’eau soit absorbée.  </p>
+							<p>2.<tab/>Laisser reposer, couvert, pendant<br/>2 minutes. Aérer à la fourchette<br/>avant de servir.</p>
+							<p>SAUTER LE POULET :</p>
+							<p>1.<tab/>Verser le contenu du sachet 2 (fécule de manioc modifiée) dans un bol. Enrober le poulet de fécule de manioc et secouer pour enlever l’excédent.</p>
+							<p>2.<tab/>Dans une grande poêle, chauffer<br/>2 c. à soupe (30 mL) d’huile à feu MOYEN-ÉLEVÉ. Sauter le poulet en petits lots, en ajoutant plus d’huile si nécessaire, pendant environ 3 minutes ou jusqu’à ce qu’il soit doré des deux côtés et tout juste cuit à fond. Égoutter sur un essuie-tout et réserver.</p>
+							<p>SAUTER LES LÉGUMES :</p>
+							<p>1.<tab/>Dans une grande poêle propre, chauffer 1 c. à soupe (15 mL) d’huile à feu MOYEN-ÉLEVÉ. Sauter le contenu du sachet 3 (piments forts) et le poivron rouge de 2 à 3 minutes. </p>
+							<p>2.<tab/>Ajouter le poulet cuit et le contenu du sachet 4 (sauce). Remuer pour bien enrober et réchauffer. </p>
+							<p>3.<tab/>Servir sur le riz. Garnir des oignons verts.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PREPARATION_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>4</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>LE TEMPS DE CUISSON PEUT VARIER SELON L’APPAREIL; À TITRE INDICATIF SEULEMENT.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PRODUCT_DISPLAY_DISCLAIMER</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>SUGGESTED SERVING</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PRODUCT_DISPLAY_DISCLAIMER</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>PRÉSENTATION SUGGÉRÉE</p>
+							<p></p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">PRODUCT_FEATURES</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>INCLUDES: JASMINE RICE, MODIFIED TAPIOCA STARCH, DRIED CHILI PEPPERS, SAUCE</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">STORAGE_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>STORE IN A COOL, DRY PLACE.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">STORAGE_INSTRUCTIONS</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>GARDER DANS UN ENDROIT FRAIS ET SEC.</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">TRADE_ITEM_FORM_DESCRIPTION</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>2</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>MEAL KIT </p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">TRADE_ITEM_FORM_DESCRIPTION</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>1</localeSequence>
+				<expectedNumberOfOccurrences>2</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>KIT POUR REPAS</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentCopyElement>
+				<copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">VARIANT</copyElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence>0</localeSequence>
+				<expectedNumberOfOccurrences>2</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<textContent>
+					<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+						<body>
+							<p>GENERAL TAO</p>
+						</body>
+					</html>
+				</textContent>
+			</artworkContentCopyElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence></localeSequence>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceIdentifier>Try this</referenceIdentifier>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+		</artworkContentPieceOfArt>
+	</artworkContent>
+</artwork_content:artworkContentMessage>

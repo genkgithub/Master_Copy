@@ -1,0 +1,98 @@
+artworkContent.artworkContentPieceOfArt: subnodes:
+rootNode.nodes.length=7
+artworkContentCopyElement{BEST_BEFORE_DATE:BEST BEFORE}
+artworkContentCopyElement{TEST-CODE-0:TEST-TEXT-0}
+artworkContentCopyElement{TEST-CODE-1:TEST-TEXT-1}
+===raw XML===
+<?xml version="1.0" encoding="UTF-8"?>
+
+<artworkContentPieceOfArt>
+   <pieceOfArtIdentification>
+      <entityIdentification>POA1</entityIdentification>
+   </pieceOfArtIdentification>
+   <artworkContentLocale>
+      <localeSequence>0</localeSequence>
+      <localeIdentifier/>
+   </artworkContentLocale>
+   <artworkContentLocale>
+      <localeSequence>1</localeSequence>
+      <localeIdentifier/>
+   </artworkContentLocale>
+   <artworkContentCopyElement>
+      <copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">BEST_BEFORE_DATE</copyElementTypeCode>
+      <instanceSequence>1</instanceSequence>
+      <localeSequence>0</localeSequence>
+      <expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+      <isContentApproved>FALSE</isContentApproved>
+      <forPlacementOnly>FALSE</forPlacementOnly>
+      <textContent>
+         <html>
+            <body>
+               <p>BEST BEFORE</p>
+            </body>
+         </html>
+      </textContent>
+      <textContent_q>
+         <html_q>
+            <body_q>
+               <p_q>WORST_BEFORE</p_q>
+            </body_q>
+         </html_q>
+      </textContent_q>
+   </artworkContentCopyElement>
+   <artworkContentCopyElement>
+      <copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">TEST-CODE-0</copyElementTypeCode>
+      <instanceSequence>1</instanceSequence>
+      <localeSequence>0</localeSequence>
+      <expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+      <isContentApproved>FALSE</isContentApproved>
+      <forPlacementOnly>FALSE</forPlacementOnly>
+      <textContent>
+         <html>
+            <body>
+               <p>TEST-TEXT-0</p>
+            </body>
+         </html>
+      </textContent>
+      <textContent_q>
+         <html_q>
+            <body_q>
+               <p_q>WORST_BEFORE</p_q>
+            </body_q>
+         </html_q>
+      </textContent_q>
+   </artworkContentCopyElement>
+   <artworkContentCopyElement>
+      <copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">TEST-CODE-1</copyElementTypeCode>
+      <instanceSequence>1</instanceSequence>
+      <localeSequence>0</localeSequence>
+      <expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+      <isContentApproved>FALSE</isContentApproved>
+      <forPlacementOnly>FALSE</forPlacementOnly>
+      <textContent>
+         <html>
+            <body>
+               <p>TEST-TEXT-1</p>
+            </body>
+         </html>
+      </textContent>
+      <textContent_q>
+         <html_q>
+            <body_q>
+               <p_q>WORST_BEFORE</p_q>
+            </body_q>
+         </html_q>
+      </textContent_q>
+   </artworkContentCopyElement>
+   <artworkContentGraphicElement>
+      <graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+      <instanceSequence>1</instanceSequence>
+      <localeSequence/>
+      <expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+      <isContentApproved>FALSE</isContentApproved>
+      <forPlacementOnly>FALSE</forPlacementOnly>
+      <graphicElementReference>
+         <referenceIdentifier>Try this</referenceIdentifier>
+      </graphicElementReference>
+   </artworkContentGraphicElement>
+</artworkContentPieceOfArt>

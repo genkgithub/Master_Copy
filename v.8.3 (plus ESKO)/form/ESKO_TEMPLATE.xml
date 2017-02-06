@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<artwork_content:artworkContentMessage xmlns:artwork_content="urn:gs1:ecom:artwork_content:xsd:3" xmlns:sh="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:gs1:ecom:artwork_content:xsd:3 Schemas/gs1/ecom/ArtworkContent.xsd">
+  <sh:StandardBusinessDocumentHeader>
+    <sh:HeaderVersion>1.0</sh:HeaderVersion>
+    <sh:Sender>
+      <sh:Identifier Authority="GS1" />
+      <sh:ContactInformation>
+        <!-- To be filled by system with the 'operator' environment variable -->
+        <sh:Contact>.</sh:Contact>
+      </sh:ContactInformation>
+    </sh:Sender>
+    <sh:Receiver>
+      <sh:Identifier Authority="GS1" />
+      <sh:ContactInformation>
+        <sh:Contact>.</sh:Contact>
+      </sh:ContactInformation>
+    </sh:Receiver>
+    <sh:DocumentIdentification>
+      <sh:Standard>GS1</sh:Standard>
+      <sh:TypeVersion></sh:TypeVersion>
+      <sh:InstanceIdentifier>DocInstance01</sh:InstanceIdentifier>
+      <sh:Type />
+      <sh:CreationDateAndTime>2016-12-07T22:10:32</sh:CreationDateAndTime>
+    </sh:DocumentIdentification>
+  </sh:StandardBusinessDocumentHeader>
+  <artworkContent>
+    <creationDateTime>2016-12-07T22:10:32</creationDateTime>
+    <documentStatusCode>ORIGINAL</documentStatusCode>
+    <artworkContentIdentification>
+      <entityIdentification>Entity ID</entityIdentification>
+    </artworkContentIdentification>
+    <artworkProjectIdentification>Artwork Project ID</artworkProjectIdentification>
+    <artworkProjectName>New GS1 XML</artworkProjectName>
+    <artworkContentSource>
+      <gln>1234567890128</gln>
+    </artworkContentSource>
+    <artworkContentRecipient>
+      <gln>1234567890128</gln>
+    </artworkContentRecipient>
+    <artworkContentPieceOfArt>
+      <pieceOfArtIdentification>
+        <entityIdentification>POA1</entityIdentification>
+      </pieceOfArtIdentification>
+      <artworkContentLocale>
+        <localeSequence>0</localeSequence>
+        <localeIdentifier></localeIdentifier>
+      </artworkContentLocale>
+      <artworkContentLocale>
+        <localeSequence>1</localeSequence>
+        <localeIdentifier></localeIdentifier>
+      </artworkContentLocale>
+      <artworkContentCopyElement>
+        <copyElementTypeCode codeListURI="urn:gs1:gdd:cl:CopyElementTypeCode">BEST_BEFORE_DATE</copyElementTypeCode>
+        <instanceSequence>1</instanceSequence>
+        <localeSequence>0</localeSequence>
+        <expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+        <isContentApproved>FALSE</isContentApproved>
+        <forPlacementOnly>FALSE</forPlacementOnly>
+        <textContent>
+          <html>
+            <body>
+              <p>BEST BEFORE</p>
+            </body>
+          </html>
+        </textContent>
+      </artworkContentCopyElement>
+      <artworkContentGraphicElement>
+        <graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+        <instanceSequence>1</instanceSequence>
+        <localeSequence></localeSequence>
+        <expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+        <isContentApproved>FALSE</isContentApproved>
+        <forPlacementOnly>FALSE</forPlacementOnly>
+        <graphicElementReference>
+          <referenceIdentifier>Try this</referenceIdentifier>
+        </graphicElementReference>
+      </artworkContentGraphicElement>
+    </artworkContentPieceOfArt>
+  </artworkContent>
+</artwork_content:artworkContentMessage>

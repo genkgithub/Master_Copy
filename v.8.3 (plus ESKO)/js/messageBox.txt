@@ -1,0 +1,42 @@
+//=== get value from data XML node based on root/section/GS1tag/vatKey ===	
+// 0) Both data and the map must be loaded!
+// 1) Use subroot(root), path1(sectionID), path2(GS1tag), vatKey(Misc) to locate MapItem in the map.
+//    Show MapItem.AsString(). 
+// 2) Retrieve value using:
+//    getDataXmlNodeValueExt(pMapItem, pXMLloadedFrom, pDOMroot, pLog)
+//=======================================================================
+
+var fOK = xfa.host.messageBox("Make sure that both data and map are loaded!", "Attention!","2","1");
+if (fOK == "1") {
+
+	var DOMroot, subroot, sectionID, GS1tag, vatKey;
+	var oLog = {Msg:""};
+	var oOutput1 = xfa.resolveNode(m_root.value + ".Page1.subMain.subUnitTest.subTestOutput.txtOutput[0]");	
+	var oOutput2 = xfa.resolveNode(m_root.value + ".Page1.subMain.subUnitTest.subTestOutput.txtOutput[1]");
+			
+	DOMroot = "abap";
+	subroot = "values.LABELDATA.LOBLAW_PROD_SPEC";
+	
+	sectionID = xfa.resolveNode(m_root.value + ".Page1.subMain.subUnitTest.subTests_2.txtSectionID").rawValue;
+	GS1tag    = xfa.resolveNode(m_root.value + ".Page1.subMain.subUnitTest.subTests_2.txtGS1tag").rawValue;
+	vatKey    = xfa.resolveNode(m_root.value + ".Page1.subMain.subUnitTest.subTests_2.txtMisc").rawValue;
+	
+	if (commons.ifNullEmpty(sectionID)=="") {
+		sectionID = "PRODUCT_IDENTITY";	
+		xfa.resolveNode(m_root.value + ".Page1.subMain.subUnitTest.subTests_2.txtSectionID").rawValue = sectionID;
+	}
+	if (commons.ifNullEmpty(GS1tag)=="") {
+		GS1tag = "NUTRITION_CLAIM";	
+		xfa.resolveNode(m_root.value + ".Page1.subMain.subUnitTest.subTests_2.txtGS1tag").rawValue = GS1tag ;
+	}
+//	if (commons.ifNullEmpty(vatKey)=="") {
+//		vatKey = "Z_NTCLM_PRTN_CLM";				
+//		xfa.resolveNode(m_root.value + ".Page1.subMain.subUnitTest.subTests_2.txtMisc").rawValue = vatKey;
+//	}
+	vatKey = commons.ifNullEmpty(vatKey);
+Params for messageBox:
+	
+param4 (optional) : The buttons to display: '0' (OK (default)), '1' (OK, Cancel), '2' (Yes, No), and '3' (Yes, No, Cancel).
+returns: Returns the type of the button that was pressed by the user: '1' (OK), '2' (Cancel), '3' (No), and '4' (Yes).
+
+

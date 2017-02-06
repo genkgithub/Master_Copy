@@ -1,0 +1,71 @@
+﻿Characteristic.		Z_VNUT_NFT_FRMT					NFT Panel Format
+
+Validity
+Valid On		2015/02/11
+
+Basic Data
+Chars Group		Z_FD_SUB			Food substance characteristic
+Status.........		1	Released
+
+Format
+Format...................				CHAR				.	Entry Required
+Number of Characters				4				.	Multiple Values
+Template.................
+.	Propose Template
+X	Case Sensitive
+
+Headings
+Heading 1................
+Heading 2................
+
+Allowed Values
+.	Additional Values
+
+Char. Value						Description				Default
+						------------------------------				---------
+1.1						Standard
+2.1						Narror Standard
+3.1						Bilingual Standard
+4.1						Bilingual Horizontal
+5.1						Simplified Standard
+6.1						Bilingual Simp'd Std
+7.1						Bilingual Simp'd Horiz.
+8.1						Dual - Req. Prep
+9.1						Biling. Dual - Req. Prep
+10.1						Aggr. - Diff Kinds Foods
+11.1						Bil. Agg. - Diff Kinds Foods
+12.1						Dual - Diff. Amnt Food
+13.1						Bil. Dual - Diff. Amnt Food
+14.1						Aggr. - Diff Amnts Food
+15.1						Bil. Agg. - Diff Amnts Food
+16.1						Linear
+17.1						Simplified Linear
+18.1						Pres of Add Info
+19.1						Bilingual Pres. Of Add. Info
+20.1						Infant Stdandard
+21.1						Infant Narrow Standard
+22.1						Infant Bilingual Standard
+23.1						Infant Horizontal
+25.1						Infant Bilingual Simp. Std
+26.1						Infant Bilingual Simp. Horiz.
+27.1						Infant Agg - Diff Kinds Foods
+28.1						Infant Bil Agg - Diff Kinds
+29.1						Infant Agg - Diff Amnt
+30.1						Infant Bil Agg - Diff Amnts
+31.1						Infant Linear
+32.1						Infant Simp Linear
+33.1						Infant Pres. Add Info
+34.1						Infant Bil. Pres. Add Info
+
+User Entry Handling
+.	Unformatted Entry
+.	Propose Template
+
+Display Allowed Values
+.	Disp. in Val. Assgmt
+
+Administrative Data
+Created By		BC-BATCH
+Created On		2014/10/29
+Changed By		BC-BATCH
+Changed on.....		2014/10/29
